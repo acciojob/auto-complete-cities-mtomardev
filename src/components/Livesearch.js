@@ -95,7 +95,7 @@ const Livesearch = () =>{
             {
                 filteredData.map((names)=>{
                     return(
-                        <p>{names}</p>
+                        <li>{names}</li>
                     )
                 })
             }
